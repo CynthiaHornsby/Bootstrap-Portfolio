@@ -1,10 +1,62 @@
+body {
+    background: url(Images/doodles.png);
+}
+
+
 .navbar-default {
     background-color: #4DD4CA;
     border-color: #E7E7E7;
+}
+
+h1 {
+    color: #4DD4CA;
+}
+
+.imagelabel {
+    background: #4DD4CA;
+    position: relative;
+    top: 200px;
+    padding: 10px 0px 10px 130px;
+    color: white;
+    font-size: 18px;
+}
+
+.formcontrol {
+    width: 100%;
 }
 
 .portfolio {
     background: #4DD4CA;
     position: relative;
     top: 190px;
+    width: 200px;
+}
+
+.panel-default>.panel-heading {
+    background: white;
+    text-align: center;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    padding-left: 120px;
+}
+
+#description {
+    height: 200px;
+}
+
+button {
+    background: #4DD4CA;
+    border: none;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.navbottom {
+    background: white;
+    border-top: 5px solid #4DD4CA;
+    width: 100%;
+    bottom: 0 auto;
 }
